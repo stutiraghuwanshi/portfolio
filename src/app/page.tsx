@@ -1,4 +1,4 @@
-import { Github, Linkedin, CodeXml, BrainCircuit, Database, ServerCog, GraduationCap, Award, Users, Briefcase } from "lucide-react";
+import { Github, Linkedin, CodeXml, BrainCircuit, Database, ServerCog, GraduationCap, Award, Users, Paintbrush, Heart } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -27,6 +27,11 @@ const skills = {
     { icon: <Database className="h-4 w-4 mr-2" />, name: "SQL" },
   ],
 };
+
+const hobbies = [
+  { icon: <Paintbrush className="h-6 w-6 text-primary" />, name: "Dance" },
+  { icon: <Heart className="h-6 w-6 text-primary" />, name: "Coding Enthusiast" },
+];
 
 
 export default function Home() {
@@ -165,6 +170,22 @@ export default function Home() {
                       <p className="text-muted-foreground">Hands-On Workshop on IOT Data Analysis (DATALIZE Event), Volunteer for Advitya Fest, Industrial visits (Pune Hyderabad)</p>
                     </div>
                   </div>
+                </CardContent>
+              </Card>
+            </section>
+
+            <section id="hobbies">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="font-headline">Hobbies & Interests</CardTitle>
+                </CardHeader>
+                <CardContent className="flex justify-center gap-8">
+                  {hobbies.map((hobby) => (
+                    <div key={hobby.name} className="flex flex-col items-center gap-2">
+                      {hobby.icon}
+                      <span className="text-muted-foreground">{hobby.name}</span>
+                    </div>
+                  ))}
                 </CardContent>
               </Card>
             </section>
