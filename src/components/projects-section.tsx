@@ -29,7 +29,7 @@ const initialProjects = [
     title: "Momentum AI: Stock Insights",
     description: "Engineered a full-stack AI financial platform with a 6-part tech stack, deploying 3 distinct Genkit agents for predictive analysis across 3 timeframes (1M, 6M, 1Y), news summarization, and user avatar generation. Architected a responsive UI with over 15 React components and a secure 4-field login system, resulting in a personalized, dual-themed (light/dark) dashboard that increased user accessibility. Constructed multiple server-side AI flows with Genkit to process 365+ data points for 1-year forecasts and generate custom avatars, achieving a 100% personalized user dashboard experience.",
     tags: ["AI", "Genkit", "React", "Finance"],
-    image: "https://picsum.photos/600/400?random=1",
+    image: "https://picsum.photos/seed/stocks-app/600/400",
     imageHint: "stock market chart",
   },
   {
@@ -37,7 +37,7 @@ const initialProjects = [
     title: "VIT Talk: Campus Connect",
     description: "Developed a full-stack social platform for 1,000+ students with secure login, chat, event calendar, and like features, Increasing engagement by 70%. Built a scalable, responsive UI using React.js, HTML5, CSS3, integrated with REST APIs and backend logic. Boosted performance by 60% through code optimization, caching, and DB indexing; ensured cross-device UX and 99.9% uptime via testing and responsive design.",
     tags: ["React", "Node.js", "Social", "Full-stack"],
-    image: "https://picsum.photos/600/400?random=4",
+    image: "https://picsum.photos/seed/social-media-app/600/400",
     imageHint: "social media homepage",
   },
   {
@@ -45,7 +45,7 @@ const initialProjects = [
     title: "VaultDrive: Cloud Storage Platform",
     description: "Architected a cloud-based file storage platform in React.js, enabling secure upload/download of 500+ files across multiple devices. Enhanced production builds with code splitting and minification, improving load times by 35% and reducing bandwidth by 25%. Maintained Git version control and added 3+ deployment scripts to support code quality and automated releases.",
     tags: ["React", "Cloud", "Storage"],
-    image: "https://picsum.photos/600/400?random=3",
+    image: "https://picsum.photos/seed/cloud-storage-app/600/400",
     imageHint: "cloud storage interface",
   },
 ];
