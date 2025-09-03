@@ -5,8 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import ProjectsSection from "@/components/projects-section";
 
 const socialLinks = [
-  { icon: <Linkedin className="h-5 w-5" />, href: "#" },
-  { icon: <Github className="h-5 w-5" />, href: "#" },
+  { icon: <Linkedin className="h-5 w-5" />, href: "https://www.linkedin.com/in/stuti-raghuwanshi-05b878257/" },
+  { icon: <Github className="h-5 w-5" />, href: "https://github.com/stutiraghuwanshi" },
 ];
 
 const skills = {
@@ -155,7 +155,7 @@ export default function Home() {
                     <Users className="h-8 w-8 mt-1 text-primary"/>
                     <div>
                       <h3 className="font-semibold">Core Member, Cultural Club</h3>
-                      <p className="text-muted-foreground">Enhanced audience engagement by integrating interactive elements like calligraphy workshops and traditional food stalls, resulting in 90%+ positive feedback and increased social media shares by 50%.</p>
+                      <p className="text-muted-foreground">Enhanced audience engagement by integrating interactive elements like calligraphy workshops and traditional food stalls, resulting in 90%+ positive feedback and increased social media shares by 50%. Mentored 20+ junior club members, fostering a supportive team environment and improving internal communication by streamlining processes with WhatsApp and Workspace tools.</p>
                     </div>
                   </div>
                    <div className="flex items-start gap-4">
