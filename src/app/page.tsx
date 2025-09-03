@@ -10,33 +10,21 @@ const socialLinks = [
 ];
 
 const skills = {
-  "Languages": [
-    { icon: <CodeXml className="h-4 w-4 mr-2" />, name: "JavaScript" },
-    { icon: <CodeXml className="h-4 w-4 mr-2" />, name: "TypeScript" },
+  "Programming Languages": [
+    { icon: <CodeXml className="h-4 w-4 mr-2" />, name: "C++" },
     { icon: <CodeXml className="h-4 w-4 mr-2" />, name: "Python" },
-    { icon: <CodeXml className="h-4 w-4 mr-2" />, name: "Java" },
+    { icon: <CodeXml className="h-4 w-4 mr-2" />, name: "SQL" },
+    { icon: <CodeXml className="h-4 w-4 mr-2" />, name: "HTML" },
+    { icon: <CodeXml className="h-4 w-4 mr-2" />, name: "JavaScript" },
+    { icon: <CodeXml className="h-4 w-4 mr-2" />, name: "Node.js" },
   ],
-  "Frameworks & Libraries": [
-    { icon: <ServerCog className="h-4 w-4 mr-2" />, name: "React" },
-    { icon: <ServerCog className="h-4 w-4 mr-2" />, name: "Next.js" },
-    { icon: <ServerCog className="h-4 w-4 mr-2" />, name: "Node.js" },
-    { icon: <ServerCog className="h-4 w-4 mr-2" />, name: "Express" },
+  "Frameworks & Tools": [
+    { icon: <ServerCog className="h-4 w-4 mr-2" />, name: "React.js" },
+    { icon: <ServerCog className="h-4 w-4 mr-2" />, name: "CSS" },
   ],
   "Databases": [
-    { icon: <Database className="h-4 w-4 mr-2" />, name: "MongoDB" },
-    { icon: <Database className="h-4 w-4 mr-2" />, name: "PostgreSQL" },
-    { icon: <Database className="h-4 w-4 mr-2" />, name: "Firebase" },
-  ],
-  "Tools & Platforms": [
-    { icon: <Briefcase className="h-4 w-4 mr-2" />, name: "Docker" },
-    { icon: <Briefcase className="h-4 w-4 mr-2" />, name: "Git" },
-    { icon: <Briefcase className="h-4 w-4 mr-2" />, name: "Vercel" },
-    { icon: <Briefcase className="h-4 w-4 mr-2" />, name: "Google Cloud" },
-  ],
-  "AI/ML": [
-    { icon: <BrainCircuit className="h-4 w-4 mr-2" />, name: "Genkit" },
-    { icon: <BrainCircuit className="h-4 w-4 mr-2" />, name: "TensorFlow" },
-    { icon: <BrainCircuit className="h-4 w-4 mr-2" />, name: "Scikit-learn" },
+    { icon: <Database className="h-4 w-4 mr-2" />, name: "MongoDB (NoSQL)" },
+    { icon: <Database className="h-4 w-4 mr-2" />, name: "SQL" },
   ],
 };
 
@@ -74,7 +62,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    A passionate and driven software engineer with a knack for building innovative and user-centric applications. With a strong foundation in full-stack development and a keen interest in artificial intelligence, I thrive on turning complex problems into elegant solutions. I'm constantly learning and seeking new challenges to push the boundaries of what's possible in tech.
+                    Computer Science undergraduate with hands-on experience in full-stack development and modern web technologies. Applied object-oriented programming principles and data structures to design efficient software solutions. Collaborated on team-based projects, optimized frontend performance.
                   </p>
                 </CardContent>
               </Card>
@@ -115,14 +103,42 @@ export default function Home() {
                     <GraduationCap className="h-8 w-8 mt-1 text-primary"/>
                     <div>
                       <h3 className="font-semibold">B.Tech in Computer Science & Engineering</h3>
-                      <p className="text-muted-foreground">XYZ University, 2020-2024</p>
+                      <p className="text-muted-foreground">VIT Bhopal University, 2022-Present</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
                     <Award className="h-8 w-8 mt-1 text-primary"/>
                     <div>
-                      <h3 className="font-semibold">Google Cloud Certified - Professional Cloud Developer</h3>
-                      <p className="text-muted-foreground">Google</p>
+                      <h3 className="font-semibold">Software Engineer Intern</h3>
+                      <p className="text-muted-foreground">HackerRank</p>
+                    </div>
+                  </div>
+                   <div className="flex items-start gap-4">
+                    <Award className="h-8 w-8 mt-1 text-primary"/>
+                    <div>
+                      <h3 className="font-semibold">Bits and Bytes of Computer Networking</h3>
+                      <p className="text-muted-foreground">Google/Coursera</p>
+                    </div>
+                  </div>
+                   <div className="flex items-start gap-4">
+                    <Award className="h-8 w-8 mt-1 text-primary"/>
+                    <div>
+                      <h3 className="font-semibold">Marketing Analytics</h3>
+                      <p className="text-muted-foreground">NPTEL</p>
+                    </div>
+                  </div>
+                   <div className="flex items-start gap-4">
+                    <Award className="h-8 w-8 mt-1 text-primary"/>
+                    <div>
+                      <h3 className="font-semibold">AWS Academy Graduate - AWS Academy Cloud Architecting</h3>
+                      <p className="text-muted-foreground">AWS</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <Award className="h-8 w-8 mt-1 text-primary"/>
+                    <div>
+                      <h3 className="font-semibold">Postman API Fundamentals Student Expert</h3>
+                      <p className="text-muted-foreground">Postman</p>
                     </div>
                   </div>
                 </CardContent>
@@ -138,15 +154,15 @@ export default function Home() {
                    <div className="flex items-start gap-4">
                     <Users className="h-8 w-8 mt-1 text-primary"/>
                     <div>
-                      <h3 className="font-semibold">Lead, Developer Student Club</h3>
-                      <p className="text-muted-foreground">Organized workshops and hackathons, fostering a community of student developers.</p>
+                      <h3 className="font-semibold">Core Member, Cultural Club</h3>
+                      <p className="text-muted-foreground">Enhanced audience engagement by integrating interactive elements like calligraphy workshops and traditional food stalls, resulting in 90%+ positive feedback and increased social media shares by 50%.</p>
                     </div>
                   </div>
                    <div className="flex items-start gap-4">
                     <Users className="h-8 w-8 mt-1 text-primary"/>
                     <div>
-                      <h3 className="font-semibold">Mentor, Girls Who Code</h3>
-                      <p className="text-muted-foreground">Mentored high school students, teaching them programming fundamentals and inspiring them to pursue careers in tech.</p>
+                      <h3 className="font-semibold">Hackathon participant</h3>
+                      <p className="text-muted-foreground">Hands-On Workshop on IOT Data Analysis (DATALIZE Event), Volunteer for Advitya Fest, Industrial visits (Pune Hyderabad)</p>
                     </div>
                   </div>
                 </CardContent>
